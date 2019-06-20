@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { friendsReducer as friends } from './friendsReducer';
+import friendsReducer  from './friendsReducer';
 
 export default combineReducers( {
-  friends
+  friends : friendsReducer
 } );
