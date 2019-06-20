@@ -1,9 +1,10 @@
 import React from 'react';
+import FriendLogin from './friends/FriendLogin';
 
 const App = () => {
   return (
     <div>
-      <h1>Friends</h1>
+      <FriendLogin />
     </div>
   );
 };
