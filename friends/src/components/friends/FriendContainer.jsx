@@ -1,11 +1,6 @@
 import React from 'react';
+import FriendList from './FriendList';
 
-const FriendContainer = () => {
-  return (
-    <div>
-      <h1>FriendContainer</h1>
-    </div>
-  );
-};
+const FriendContainer = () => <FriendList />;
 
 export default FriendContainer;

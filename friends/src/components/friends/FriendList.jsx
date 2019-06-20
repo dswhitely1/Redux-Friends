@@ -1,13 +1,18 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import Friend from './Friend';
 
 const FriendList = props => {
+  console.log(props);
+  const {friends} = props;
   return (
-    <h1>FriendList</h1>
+    <>
+      {friends.map( friend => <Friend {...props} friend={friend} /> )}
+    </>
   );
 };
 
-const mapStateToProps = state => ({friends: state.friends});
+const mapStateToProps = state => ({friends: state.friends.friends});
 
 export default connect( mapStateToProps )( FriendList );
 
