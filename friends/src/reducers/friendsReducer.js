@@ -87,12 +87,13 @@ export default ( state = initialState, action ) => {
       return {
         ...state,
         loggingIn: false,
-        error    : null
+        error    : null,
       };
     case types.LOGIN_FAILURE:
       return {
         ...state,
-        loggingIn: false
+        loggingIn: false,
+        errors: payload
       };
     default:
       return state;
