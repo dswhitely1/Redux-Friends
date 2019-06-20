@@ -2,7 +2,7 @@ import types from '../actions';
 
 const authMiddleware = store => next => action => {
   if (action.type === types.LOGIN_SUCCESS) {
-    console.log( `Token set with ${action.payload.payload}` );
+    localStorage.setItem( 'token', action.payload.payload );
   }
 
   next( action );
