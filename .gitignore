@@ -1,5 +1,6 @@
 # dependencies
 /node_modules
+/authfriends/node_modules
 
 # testing
 /coverage
