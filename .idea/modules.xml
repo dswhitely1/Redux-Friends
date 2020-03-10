@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Redux-Friends.iml" filepath="$PROJECT_DIR$/.idea/Redux-Friends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Auth-Friends.iml" filepath="$PROJECT_DIR$/.idea/Auth-Friends.iml" />
     </modules>
   </component>
 </project>
